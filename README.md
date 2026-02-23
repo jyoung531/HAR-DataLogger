@@ -53,20 +53,15 @@ Open your mobile or PC browser and enter the server address.
 
 ---
 
-## 🛠️ Developer Setup
-For researchers or developers who wish to run or modify the source code:
+## 📦 Download & Execution (For Lab Members)
+If you want to run the logger without setting up a Python environment, follow these steps:
 
-### Installation
-```bash
-# 1. Clone the repository
-git clone [https://github.com/jyoung531/HAR-DataLogger.git](https://github.com/jyoung531/HAR-DataLogger.git)
-cd HAR-DataLogger
+1. **Download**: Go to the [Releases](https://github.com/jyoung531/HAR-DataLogger/releases) page.
+2. **Get the File**: Download the latest version of `NRF_DataLogger.exe`.
+3. **Run**: Double-click the `.exe` file.
+    * *Note: Your PC must be connected to the lab's Tailscale network to host or access the server.*
+---
 
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run the application
-python NRF_DataLogger.py
 
 👤 Author
 Juyoung Lee — Master's Student, GIST AI Graduate School
